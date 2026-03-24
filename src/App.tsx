@@ -9,7 +9,7 @@ const NAV_LINKS = [
 const FEATURES = [
   {
     title: 'Workout Logging',
-    description: 'Log every session with full detail — sets, reps, distance, pace, heart rate, and more.',
+    description: 'Log every session with full detail including sets, reps, distance, pace, heart rate, and more.',
   },
   {
     title: 'Training Planning',
@@ -21,15 +21,15 @@ const FEATURES = [
   },
   {
     title: 'Scientific Testing',
-    description: 'Purpose-built tools for sports scientists to import, visualise, and analyse data from laboratory and field tests — no spreadsheets required.',
+    description: 'Purpose-built tools for sports scientists to import, visualise, and analyse data from laboratory and field tests. No spreadsheets required.',
   },
   {
     title: 'Coaching',
-    description: 'Coaches will be able to manage athletes, plan workouts and training programmes on their behalf, and track progress — all within a shared coach-athlete workspace.',
+    description: 'Coaches will be able to manage athletes, plan workouts and training programmes on their behalf, and track progress within a shared coach-athlete workspace.',
   },
   {
     title: 'Device Sync',
-    description: 'Automatic activity sync from all major platforms — Garmin, Polar, Coros, Suunto, Apple Health, and more. Your device will never limit your training.',
+    description: 'Automatic activity sync from all major platforms including Garmin, Polar, Coros, Suunto, and Apple Health. Your device will never limit your training.',
   },
 ];
 
@@ -83,7 +83,7 @@ export default function App() {
             Train with purpose.<br />Recover with data.
           </h1>
           <p className="text-lg text-white/80 max-w-xl mx-auto mb-10">
-            A scientific training platform for athletes, coaches, and sports scientists — log workouts, plan training, analyse physiology, and collaborate, all in one place.
+            A scientific training platform for athletes, coaches, and sports scientists. Log workouts, plan training, analyse physiology, and collaborate, all in one place.
           </p>
           <span className="inline-block bg-white/20 text-white text-sm px-5 py-2.5 rounded-full">
             Coming 2026
@@ -119,7 +119,7 @@ export default function App() {
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">Data we will collect</h3>
             <p>
-              When athletique launches, we will collect data you provide directly — such as account credentials and workout data — and data synced from connected services such as Garmin Connect, with your explicit authorisation.
+              When athletique launches, we will collect data you provide directly, such as account credentials and workout data, as well as data synced from connected services such as Garmin Connect, with your explicit authorisation.
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">How we will use your data</h3>
             <p>
@@ -127,11 +127,11 @@ export default function App() {
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">Third-party services</h3>
             <p>
-              athletique is designed to be device-agnostic. We plan to integrate with all major wearable and fitness platforms — including Garmin Connect, Polar, Coros, Suunto, and Apple Health — so that users are not limited by the device they own. When you connect a third-party account, you will be authorising athletique to access your activity data in accordance with that platform's own privacy policy.
+              athletique is designed to be device-agnostic. We plan to integrate with all major wearable and fitness platforms including Garmin Connect, Polar, Coros, Suunto, and Apple Health, so that users are never limited by the device they own. When you connect a third-party account, you will be authorising athletique to access your activity data in accordance with that platform's own privacy policy.
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">Data sharing within athletique</h3>
             <p>
-              athletique will support coach-athlete relationships in which athletes can choose to share their data with a coach. This sharing will always be initiated and controlled by the athlete. Coaches will only have access to data the athlete has explicitly granted them. No user will have access to another user's data without their consent.
+              athletique will support coach-athlete relationships where athletes can choose to share their data with a coach. This sharing will always be initiated and controlled by the athlete. Coaches will only see the data the athlete has explicitly granted them access to. No user will have access to another user's data without their consent.
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">Data retention</h3>
             <p>
