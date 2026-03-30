@@ -42,7 +42,7 @@ export default function App() {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="text-gray-900 font-bold text-lg tracking-tight">athletique</span>
+          <span className="text-gray-900 font-bold text-lg tracking-tight">kämpa</span>
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map(link => (
               <a key={link.href} href={link.href} className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
@@ -94,7 +94,7 @@ export default function App() {
       {/* Features */}
       <section id="features" className="py-24 px-6 bg-gray-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">What athletique will do</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">What kämpa will do</h2>
           <div className="grid md:grid-cols-2 gap-4">
             {FEATURES.map(f => (
               <div key={f.title} className="bg-white border border-gray-100 rounded-2xl p-6">
@@ -115,23 +115,23 @@ export default function App() {
               <strong className="text-gray-700">Last updated: March 2026</strong>
             </p>
             <p>
-              athletique is currently in development and not yet available to the public. This policy describes how we intend to handle user data upon launch. We are committed to being transparent about our approach from the start.
+              kämpa is currently in development and not yet available to the public. This policy describes how we intend to handle user data upon launch. We are committed to being transparent about our approach from the start.
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">Data we will collect</h3>
             <p>
-              When athletique launches, we will collect data you provide directly, such as account credentials and workout data, as well as data synced from connected services such as Garmin Connect, with your explicit authorisation.
+              When kämpa launches, we will collect data you provide directly, such as account credentials and workout data, as well as data synced from connected services such as Garmin Connect, with your explicit authorisation.
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">How we will use your data</h3>
             <p>
-              Your data will be used solely to provide and improve the athletique service. We will not sell your data to third parties, and we will not use it for advertising purposes.
+              Your data will be used solely to provide and improve the kämpa service. We will not sell your data to third parties, and we will not use it for advertising purposes.
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">Third-party services</h3>
             <p>
-              athletique is designed to be device-agnostic. We plan to integrate with all major wearable and fitness platforms including Garmin Connect, Polar, Coros, Suunto, and Apple Health, so that users are never limited by the device they own. When you connect a third-party account, you will be authorising athletique to access your activity data in accordance with that platform's own privacy policy.
+              kämpa is designed to be device-agnostic. We plan to integrate with all major wearable and fitness platforms including Garmin Connect, Polar, Coros, Suunto, and Apple Health, so that users are never limited by the device they own. When you connect a third-party account, you will be authorising kämpa to access your activity data in accordance with that platform's own privacy policy.
             </p>
-            <h3 className="text-gray-700 font-semibold text-base pt-2">Data sharing within athletique</h3>
+            <h3 className="text-gray-700 font-semibold text-base pt-2">Data sharing within kämpa</h3>
             <p>
-              athletique will support coach-athlete relationships where athletes can choose to share their data with a coach. This sharing will always be initiated and controlled by the athlete. Coaches will only see the data the athlete has explicitly granted them access to. No user will have access to another user's data without their consent.
+              kämpa will support coach-athlete relationships where athletes can choose to share their data with a coach. This sharing will always be initiated and controlled by the athlete. Coaches will only see the data the athlete has explicitly granted them access to. No user will have access to another user's data without their consent.
             </p>
             <h3 className="text-gray-700 font-semibold text-base pt-2">Data retention</h3>
             <p>
@@ -151,17 +151,17 @@ export default function App() {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Get in touch</h2>
           <p className="text-gray-500 mb-6">Interested in early access or have a question? Reach out.</p>
           <a
-            href="mailto:contact.athletique@gmail.com"
+            href="mailto:contact@xn--kmpa-eoa.com"
             className="inline-block bg-gray-900 text-white font-semibold px-8 py-3 rounded-full hover:bg-gray-700 transition-colors"
           >
-            contact.athletique@gmail.com
+            contact@kämpa.com
           </a>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="py-8 px-6 text-center text-xs text-gray-400 border-t border-gray-100">
-        © {new Date().getFullYear()} athletique. All rights reserved.
+        © {new Date().getFullYear()} kämpa. All rights reserved.
       </footer>
 
     </div>
