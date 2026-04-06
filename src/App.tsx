@@ -238,10 +238,10 @@ export default function App() {
       >
         <div className="max-w-3xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
-            Train with purpose.<br />Recover with data.
+            Because every session should count.
           </h1>
           <p className="text-lg text-white/80 max-w-xl mx-auto mb-10">
-            A scientific training platform for athletes, coaches, and sports scientists. Log workouts, plan training, analyse physiology, and collaborate — all in one place.
+            A scientific training platform for beginner to advanced athletes, coaches, and sports scientists. Log workouts, plan training, analyse physiology, and collaborate — all in one place.
           </p>
           <p className="text-white/60 text-xs mb-4 uppercase tracking-widest">Coming 2026</p>
           <EarlyAccessForm />
@@ -256,10 +256,10 @@ export default function App() {
           <div className="max-w-2xl mx-auto text-center mb-20">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">What is kämpa?</h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-4">
-              <em>Kämpa</em> is a Swedish verb. It means to fight, to strive, to push through — to keep going when it gets hard. It is the word Swedish coaches shout from the sideline. It is what athletes say to each other in the final metres of a race. It carries effort, resilience, and purpose in a single syllable.
+              <em>Kämpa</em> (say it like: shem-pa) is a Swedish verb. It means to fight, to strive, to push through — to keep going when it gets hard. It is the word Swedish coaches shout from the sideline. It is what athletes say to each other in the final metres of a race. It carries effort, resilience, and purpose in a single syllable.
             </p>
             <p className="text-gray-500 text-sm leading-relaxed">
-              That is exactly what this platform is built around. kämpa is a scientific training platform for athletes, coaches, and sports scientists who take their training seriously. It brings together workout logging, physiological analysis, training planning, and coach-athlete collaboration — grounded in data, built for performance.
+              That is exactly what this platform is built around. kämpa is a scientific training platform for athletes, coaches, and sports scientists who want to take their training seriously. It brings together workout logging, physiological analysis, training planning, and coach-athlete collaboration — grounded in data, built for you.
             </p>
           </div>
 
@@ -306,11 +306,11 @@ export default function App() {
 
             {/* Hugues */}
             <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6">
-              <img src="/hugues1.png" alt="Hugues De Roissard" className="w-12 h-12 rounded-full object-cover mb-4" />
-              <h3 className="text-gray-900 font-semibold text-base mb-1">Hugues De Roissard</h3>
+              <img src="/hugues1.png" alt="Hugues de Roissart" className="w-12 h-12 rounded-full object-cover mb-4" />
+              <h3 className="text-gray-900 font-semibold text-base mb-1">Hugues de Roissart</h3>
               <p className="text-xs text-gray-400 mb-4">Co-founder</p>
               <p className="text-gray-500 text-sm leading-relaxed">
-                Competes at a high level in powerlifting. Holds a Bachelor's degree in Bioengineering Sciences and a Master's degree in Bioengineering (Agronomic Sciences, Sustainability Engineering) from UCLouvain, Belgium, and a Master's degree in Physical Geography and Ecosystem Science from Lund University, Sweden.
+                Competes in powerlifting in the IPF and is a national level referee in Belgium. Holds a Bachelor's degree in Bioengineering Sciences and a Master's degree in Bioengineering (Agronomic Sciences, Sustainability Engineering) from UCLouvain, Belgium, and a Master's degree in Physical Geography and Ecosystem Science from Lund University, Sweden.
               </p>
             </div>
 
